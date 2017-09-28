@@ -8,6 +8,7 @@ public class sdzl
 		System.out.println("Hello World");
 		System.out.println("C'est iHyperMusic!");
 		System.out.println("Yo le test");
+		System.out.println("Github update test 2.");
 		
 		int temps;
 		temps = 10;
