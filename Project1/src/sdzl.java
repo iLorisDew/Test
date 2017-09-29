@@ -31,7 +31,7 @@ public class sdzl
 		
 		System.out.println(intro);
 		
-		System.out.println("La tempÃ©rature aujourd'hui est de " +temps);
+		System.out.println("La temperature aujourd'hui est de " +temps);
 		
 		
 		
@@ -41,20 +41,20 @@ public class sdzl
 			System.out.println("Entrez votre nom: ");
 			String nom = scan.nextLine();
 			System.out.println("Votre nom est: "+nom);
-			System.out.println("Votre nom fait: "+nom.length()+" caractÃ¨res.");
+			System.out.println("Votre nom fait: "+nom.length()+" caracteres.");
 			System.out.println("Veuillez entrer votre age: ");
 			int age = scan.nextInt();
-			System.out.println("Votre Ã¢ge est: " + age);
+			System.out.println("Votre age est: " + age);
 			System.out.print("\n");
-			System.out.println("En rÃ©sumÃ©, vous vous appelez " +nom);
+			System.out.println("En rsume, vous vous appelez " +nom);
 			System.out.println("Et vous avez " + age);
 			char tchar = nom.charAt(2);
 		
-			System.out.println("Le 3Ã¨me caractÃ¨re de votre nom est: "+tchar);	
+			System.out.println("Le 3eme caractere de votre nom est: "+tchar);	
 			rep = ' ';
 			do 
 			{
-				System.out.println("Voulez-vous reÌ�essayer ? (O/N)");
+				System.out.println("Voulez-vous reessayer ? (O/N)");
 				scan.nextLine();
 				String reponse = scan.nextLine();
 				
@@ -113,7 +113,7 @@ public class sdzl
 				for(String str : sousTab)
 				{
 					System.out.println("La valeur de la nouvelle boucle est : " +str);
-					System.out.println("La valeur du tableau aÌ€ l'indice["+j+"]["+i+"] est : " + tabi[j][i]);
+					System.out.println("La valeur du tableau a l'indice["+j+"]["+i+"] est : " + tabi[j][i]);
 					i++; 
 				}
 			j++; 
