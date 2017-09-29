@@ -5,12 +5,12 @@ public class sdzl
 
 	public static void main(String[] args) 
 	{
+		greetingDisplay();
 		System.out.println("Hello World");
 		System.out.println("C'est iHyperMusic!");
 		System.out.println("Yo le test");
 		System.out.println("Github update test 2.");
 		System.out.println("Github update test 4.");
-		System.out.println("Github update test 5.");
 		
 		int temps;
 		temps = 10;
@@ -46,7 +46,7 @@ public class sdzl
 			int age = scan.nextInt();
 			System.out.println("Votre age est: " + age);
 			System.out.print("\n");
-			System.out.println("En resume, vous vous appelez " +nom);
+			System.out.println("En rsume, vous vous appelez " +nom);
 			System.out.println("Et vous avez " + age);
 			char tchar = nom.charAt(2);
 		
@@ -123,5 +123,10 @@ public class sdzl
 		// TODO Auto-generated method stub
 
 	}
-
+	
+	public static void greetingDisplay() 
+	{
+		System.out.println("Welcome to the project");
+	}
+	
 }
